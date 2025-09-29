@@ -15,3 +15,4 @@ git init
 git add --all or -A or . or the namme of the file you want to add into the stage
 ```
 
+test some commits commands 2 
