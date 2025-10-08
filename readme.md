@@ -1,18 +1,14 @@
-# Just testing git
-## Creating my first local repo
+# Learning Repo
+## This repository has 2 branches:
 
-## Useful commands
-
-```
-git status
-```
+## 1. Main branch
 
 ```
-git init
+For all finished, done development or homework. Usually, finished and tested stuff will end here with a PR raised from the homework-development branch.
 ```
 
-```
-git add --all or -A or . or the namme of the file you want to add into the stage
-```
+## 2. Homework-development branch
 
-test some commits commands 2 
+```
+Used for working in progress or for drafts also. After the development is finished will be merge into main branch
+```
