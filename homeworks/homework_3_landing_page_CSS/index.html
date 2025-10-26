@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="navigation.css" />
+  <link rel="stylesheet" href="hero.css" />
+  <link rel="stylesheet" href="subscribe.css" />
+</head>
+
+<body>
+  <!-- Header & Navigation -->
+  <header class="main-header">
+    <nav>
+      <div class="logo">MyProduct</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <h1>Welcome to MyProduct</h1>
+      <p>Innovative. Simple. Powerful.</p>
+      <a href="#subscribe" class="cta-btn">Get Notified</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="features-container">
+        <div class="feature">
+          <h3><span>&#9889</span>&nbsp;Fast</h3>
+          <p>Experience lightning-fast performance with our product.</p>
+        </div>
+        <div class="feature">
+          <h3><span>&#128272</span>&nbsp;Secure</h3>
+          <p>Your data is always protected with top-notch security.</p>
+        </div>
+        <div class="feature">
+          <h3><span>&#127757</span>&nbsp;Global</h3>
+          <p>Accessible from anywhere in the world.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video">
+      <h2>See It in Action</h2>
+      <div class="video-wrapper">
+        <iframe width="1206" height="678" src="https://www.youtube.com/embed/vQKON3hzdJo"
+          title="Silent Circle - Touch in the Night" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Subscribe Section (with Grid & semantic tags) -->
+    <section id="subscribe" class="subscribe">
+      <header>
+        <h2>Stay Updated</h2>
+        <p>Get exclusive product updates and early access to new features.</p>
+      </header>
+
+      <div class="subscribe-grid">
+        <!-- Left Side -->
+        <div class="subscribe-left">
+          <figure>
+            <img src="images/email.jpg" alt="Newsletter illustration" />
+            <figcaption>Join thousands of subscribers worldwide</figcaption>
+          </figure>
+          <article>
+            <p>Subscribe to our newsletter to never miss important announcements.</p>
+            <small>We respect your privacy. Unsubscribe anytime.</small>
+          </article>
+        </div>
+
+        <!-- Right Side -->
+        <div class="subscribe-right">
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Subscribe to our newsletter</legend>
+              <label for="email">Email address:</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <button type="submit">Subscribe</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyProduct. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

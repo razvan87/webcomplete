@@ -1,0 +1,33 @@
+/* ========== Hero Section ========== */
+.hero {
+  background-image: url("images/citymap2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #444;
+  padding-top: 120px; /* Offset for fixed nav */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #2575fc;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #eee;
+}

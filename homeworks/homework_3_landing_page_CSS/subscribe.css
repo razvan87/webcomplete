@@ -1,0 +1,122 @@
+/* ========== Subscribe Section (Grid) ========== */
+.subscribe {
+  /* background: #f9f9f9; */
+  padding: 80px 20px;
+  /* 1. Bordura Subțire */
+  border: 5px solid #b7b8b9; /* O bordură foarte subțire și deschisă */
+  
+  /* 2. Rotunjirea Colțurilor */
+  border-radius: 130px; /* Colțuri vizibil rotunjite */
+  
+  /* 3. Umbra Soft (Cheia efectului) */
+  box-shadow: 2px 15px 30px rgba(0, 0, 0, 0.3); 
+  /* (Offset X=0, Offset Y=4px, Blur=12px, culoare neagră transparentă) */
+  
+  /* 4. Tranziție (Opțional, pentru efecte hover) */
+  transition: box-shadow 0.5s ease-in-out;
+  margin: 0 10px 0 10px;
+}
+
+.subscribe header {
+  margin-bottom: 30px;
+}
+
+.subscribe header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subscribe header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.subscribe-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 150px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Left side (illustration & text) */
+.subscribe-left figure {
+  margin-bottom: 15px;
+}
+
+.subscribe-left img {
+  max-width: 15%;
+  border-radius: 8px;
+}
+
+.subscribe-left figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+.subscribe-left article p {
+  margin-top: 10px;
+  color: #444;
+  font-size: 1rem;
+}
+
+.subscribe-left article small {
+  display: block;
+  margin-top: 8px;
+  color: #777;
+  font-size: 0.85rem;
+}
+
+/* Right side (form) */
+.subscribe-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.subscribe-right fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.subscribe-right legend {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+.subscribe-right label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.subscribe-right input[type="email"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe-right button {
+  padding: 10px 20px;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.subscribe-right button:hover {
+  background: #1a5cd8;
+}
